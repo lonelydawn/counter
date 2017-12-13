@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <counter></counter>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import Counter from './components/Counter.vue'
+  export default {
+    name: 'app',
+    components: {
+      Counter
+    }
+  }
 </script>
 
 <style>
