@@ -1,6 +1,6 @@
 # counter
 
-> A Vue.js project
+> A Vue.js project with vuex
 
 ## Build Setup
 
