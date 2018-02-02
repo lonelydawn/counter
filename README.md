@@ -10,15 +10,21 @@
 >
 > ## Start
 >
+> ##### dependencies
+> After clone or download this project, you should install dependencies firstly.
+> ```shell
+> npm install
+> ```
+>
 > ##### develop
 >
-> After clone or download this project, you can execute
+> You can execute
 >
 > ```shell
 > npm start
 > ```
 >
-> to start webpack develop server, so you can debug it.
+> to start webpack develop server, then you can debug it.
 >
 > 
 >
