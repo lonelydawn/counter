@@ -16,7 +16,18 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "co": "^4.6.0",
+    "co-request": "^1.0.0",
+    "koa": "^0.6.0",
+    "koa-bodyparser": "^2.0.1",
+    "koa-compress": "^1.0.6",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.0",
+    "koa-route": "^1.1.4",
+    "koa-sendfile": "^1.1.1",
+    "koa-static": "^1.4.5",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

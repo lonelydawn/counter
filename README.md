@@ -1,30 +1,41 @@
 # counter
 
-> A Vue.js project with vuex
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> ## Content
+>
+> > This is a simple example which shows how to start a vue project with vuex.
+> >
+> > You can click button to add one on the counter. 
+>
+> 
+>
+> ## Start
+>
+> ##### develop
+>
+> After clone or download this project, you can execute
+>
+> ```shell
+> npm start
+> ```
+>
+> to start webpack develop server, so you can debug it.
+>
+> 
+>
+> ##### produce
+>
+> If you want to release a production version, then execute
+>
+> ```shell
+> npm run build
+> ```
+>
+> to compile and compress source code.
+>
+> Then execute
+>
+> ```shell
+> node app.js
+> ```
+>
+> to start a server which is established by node framework [koa](https://github.com/koajs/koa).
